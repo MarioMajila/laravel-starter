@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+{{ factoryImport }}
+use {{ rootNamespace }}Models\ApiModel;
+
+class {{ class }} extends ApiModel
+{
+    protected $fillable = [];
+}
